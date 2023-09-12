@@ -2,7 +2,7 @@ package router
 
 import "github.com/gin-gonic/gin"
 
-// Initialize inicializa o router
+// Initialize inicializa o router utilizando as configurações Default do gin
 func Initialize() {
 	r := gin.Default()
 	r.GET("/ping", func(c *gin.Context) {
