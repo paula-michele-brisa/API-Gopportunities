@@ -12,7 +12,7 @@ import (
 // @Tags Oppenigns
 // @Accept json
 // @Produce json
-// @Param request body CreateOpeningRequest true "Request body"
+// @Param request body CreateOppeningRequest true "Request body"
 // @Success 200 {object} CreateOpeningResponse
 // @Failure 400 {object} ErrorResponse
 // @Failure 500 {object} ErrorResponse

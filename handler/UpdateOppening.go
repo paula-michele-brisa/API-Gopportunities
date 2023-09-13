@@ -8,7 +8,7 @@ import (
 
 // @BasePath /api/v1
 
-// @Summary Update opening
+// UpdateOppeningHandler @Summary Update opening
 // @Description Update a job opening
 // @Tags Openings
 // @Accept json
