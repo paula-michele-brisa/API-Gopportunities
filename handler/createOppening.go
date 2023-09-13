@@ -6,7 +6,17 @@ import (
 	"net/http"
 )
 
-// CreateOppeningHandler
+// @BasePath /api/v1
+// @Summary Create oppening
+// @Description Create a new job oppening
+// @Tags Oppenigns
+// @Accept json
+// @Produce json
+// @Param request body CreateOpeningRequest true "Request body"
+// @Success 200 {object} CreateOpeningResponse
+// @Failure 400 {object} ErrorResponse
+// @Failure 500 {object} ErrorResponse
+// @Router /opening [post]
 func CreateOppeningHandler(ctx *gin.Context) {
 
 	request := CreateOppeningRequest{}
