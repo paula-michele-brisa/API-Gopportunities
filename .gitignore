@@ -1,0 +1,9 @@
+*.exe
+*.dll
+*.json*.dylib
+
+*.test
+
+*.out
+
+Db folder
